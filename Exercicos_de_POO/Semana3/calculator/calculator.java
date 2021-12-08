@@ -5,7 +5,8 @@ class Calculator {
     private int battery;
     private float display;
     //Inicia os atributos, battery e display começam com o zero.
-
+ 
+    //construtor calculator
     public Calculator(int batteryMax){
         this.batteryMax = batteryMax;
         this.battery = 0;
