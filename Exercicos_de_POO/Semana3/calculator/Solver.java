@@ -6,7 +6,7 @@ public class Solver{
         Scanner scanner = new Scanner(System.in);
         Calculator calc = new Calculator(0);
 
-
+        //codigo abaixo
 
         while(true){
             String line = scanner.nextLine();
