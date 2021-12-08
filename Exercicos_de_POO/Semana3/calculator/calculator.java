@@ -20,8 +20,8 @@ class Calculator {
         }
     }    //Aumenta a bateria, porém não além do máximo.
 
-    
-    public void divide(int num, int den){    //Se conseguir gastar bateria e não for divisão por 0.
+    //Se conseguir gastar bateria e não for divisão por 0.
+    public void divide(int num, int den){    
         if(useBattery()){
             if(den > 0){
                 display = num/den;
