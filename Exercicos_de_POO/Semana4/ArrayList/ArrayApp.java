@@ -58,15 +58,12 @@ public class ArrayApp{
               
             } else if(cmd.equals("rma")) {
                 
-                for(int i = 0 ; i < vet.size() ; i++){
-                    
+                for(int i = 0 ; i < vet.size() ; i++){                    
                     if(Integer.parseInt(ui[1]) == vet.get(i)){
                         vet.remove((i));
-                        i--;
- 
+                        i--; 
                     }                    
                 }
-
 
             } else {
                 System.out.print("fail: command not found\n");
