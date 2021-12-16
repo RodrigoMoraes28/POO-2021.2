@@ -14,7 +14,7 @@ public class ArrayApp{
             String ui[] = line.split(" ");
             String cmd = ui[0];
 
-
+            //os arraylist e seus tipos aqui
              
             if(line.equals("end")) {
                 break;
