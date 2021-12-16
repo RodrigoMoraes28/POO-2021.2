@@ -69,6 +69,6 @@ public class ArrayApp{
                 System.out.print("fail: command not found\n");
             }
         }
-        scan.close();
+        scan.close(); // aqui fecha o scanner e nao pode mais digitar nada
     }
 }
