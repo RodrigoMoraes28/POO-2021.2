@@ -3,7 +3,7 @@ public class Lapiseira {
     private Grafite grafite;  
 
     
-
+    //iniciando a lapiseira com o construtor
     public Lapiseira(float calibre){
         this.calibre = calibre;
         grafite = null;
