@@ -14,7 +14,7 @@ public class Lapiseira {
         return("calibre: " + this.calibre + ", grafite: " + this.grafite);
     } 
 
-
+    //vendo se o grafite ta ai
     public boolean inserir(Grafite grafite){ 
         
         if(this.calibre != grafite.getCalibre()){
