@@ -8,7 +8,7 @@ public class Lapiseira {
         this.calibre = calibre;
         grafite = null;
     }
-
+    //imprimindo a lapiseira e tudo mais
     public String toString(){
         return("calibre: " + this.calibre + ", grafite: " + this.grafite);
     } 
