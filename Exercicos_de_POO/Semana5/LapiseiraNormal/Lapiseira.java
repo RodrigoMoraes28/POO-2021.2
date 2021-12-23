@@ -1,4 +1,5 @@
 public class Lapiseira {
+    //declarando os atributos da lapiseira
     private float calibre;
     private Grafite grafite;  
 
