@@ -52,8 +52,6 @@ public class Contact {
         }
         
         return(this.prefix + " " + this.name + fones); 
-
-
     }
     //GETS e SETS
 
