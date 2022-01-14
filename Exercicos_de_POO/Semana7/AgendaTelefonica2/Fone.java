@@ -1,4 +1,3 @@
-
 public class Fone {
     private String id;
     private String number;
