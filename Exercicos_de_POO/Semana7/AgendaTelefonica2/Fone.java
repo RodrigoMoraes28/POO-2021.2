@@ -48,5 +48,3 @@ public class Fone {
         return validate(number);
     }
 }
-
-
